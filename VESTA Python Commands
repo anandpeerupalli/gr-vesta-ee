@@ -1,0 +1,5 @@
+sudo PYTHONPATH=:/home/usrp/gr1/lib/python2.7/dist-packages/ LD_LIBRARY_PATH=:/home/usrp/gr1/lib/ python vesta_test_tx.py schedule.xml GatewayActivity ShipActivity /dev/ttyUSB0 ~/gr-vesta/examples/msg_handling/bin_data_packed_meta.dat ~/gr-vesta/examples/asm_sig_gen/fg_asm_sig_gen_gui_usrp.py 10
+
+
+
+sudo PYTHONPATH=:/home/usrp/gr1/lib/python2.7/dist-packages/ LD_LIBRARY_PATH=:/home/usrp/gr1/lib/ python vesta_test_tx.py schedule.xml GatewayActivity ShipActivity /dev/ttyUSB0 ~/gnuradio_downloads/modules/gr-vesta/examples/msg_handling/bin_data_packed_meta.dat ~/gnuradio_downloads/modules/gr-vesta/examples/asm_sig_gen/fg_asm_sig_gen_gui_usrp.py 10
